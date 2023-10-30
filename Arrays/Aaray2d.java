@@ -6,8 +6,8 @@ public class Aaray2d {
         
         Random r = new Random();
 
-        for(int i=0; i<arr.length; i++) {
-            for(int j=0; j<arr[i].length; j++) {
+        for(int i=0; i<arr.length; i++) {   //row
+            for(int j=0; j<arr[i].length; j++) {    //cols
                 arr[i][j] = r.nextInt(100);
             }
         }

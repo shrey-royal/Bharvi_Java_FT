@@ -1,61 +1,63 @@
-import java.util.Scanner;
+class Person {
+    private String name;
+    private int age;
+    private String education;
 
-class Candy {
-    String name;
-    int price;
-
-    Candy() {
-        name = "Ferrero Rocher";
-        price = 500;
-        // System.out.println("Constructor called");
+    Person() {
+        name = null;
+        age = 0;
+        education = null;
     }
 
-    Candy(String name, int price) {
-        this.name = name;
-        this.price = price;
+    Person(String name, int age, String education) {
+        this.name = name;   //this keyword is used to refer to the current object
+        this.age = age;
+        this.education = education;
+    }
+
+    void introduce() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Education: " + education);
     }
 
 }
-
 
 public class Constructor {
     public static void main(String[] args) {
-        // Candy c = new Candy();
+        // Person p = new Person();
+        // Person p1 = new Person("Rahul", 20, "B.Tech");
 
-        // System.out.println(c.name);
-        // System.out.println(c.price);
+        // p.introduce();
+        // p1.introduce();
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("How many candies you want to buy: ");
-        int n = sc.nextInt();
+        Person p[] = new Person[3];
 
-        Candy candies[] = new Candy[n];
+        p[0] = new Person();
+        p[1] = new Person("Rahul", 20, "B.Tech");
+        p[2] = new Person("Bharvi", 21, "Masters in UI/UX");
 
-        for(int i=0; i<n; i++) {
-            System.out.print("Enter name and price of candy " + (i+1) + ": ");
-            sc.nextLine();
-            String name = sc.nextLine();
-            System.out.print("Enter price: ");
-            int price = sc.nextInt();
-
-            candies[i] = new Candy(name, price);
+        for (Person i : p) {
+            i.introduce();
+            System.out.println();
         }
-
-        for (Candy candy : candies) {
-            System.out.println("Name: " + candy.name + "\tPrice: " + candy.price);
-        }
-
 
     }
 }
+
 /*
-Constructor: It is a special method that is used to initialize the object.
-> It automatically gets called when an object is created.
+Constructor: They are the special methods which are used to initialize the object.
+
+> Constructor name should be same as class name.
+> Constructor should not have any return type.
+> Constructor can have any access modifier. (public, private, protected)
+> Constructor can have any number of parameters.
 
 2 types of constructors:
-1. Default constructor (no-arg constructor)
-2. Parameterized constructor (arg constructor)
+1. Default constructor: It is the constructor which does not have any parameter.
+2. Parameterized constructor: It is the constructor which has parameters.
 
+Task:
 
 1. Person Class: Create a `Person` class with a parameterized constructor to store a person's name, age, and address.
 
