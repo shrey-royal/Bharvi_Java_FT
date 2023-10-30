@@ -1,0 +1,9 @@
+Control Statements in java: control statements allow you to control the execution of the program based on conditions that you specify.
+
+Java Control Statements
+
+1. if statements -> the flow of the program will be controlled by the conditions that we specify.
+2. switch case -> the user will control the flow of the program.
+3. loops -> used to execute a set of statements repeatedly until a particular condition is satisfied.
+4. break -> used to terminate the execution of a loop.
+5. continue -> used to skip the execution of the current iteration of a loop.

@@ -1,0 +1,84 @@
+OOPs: Object Oriented Programming System
+> It is a Programming paradigm that provides many concepts such as inheritance, data binding, polymorphism etc.
+
+OOPs provides many concepts such as:
+
+
+0. Classes and Objects
+1. Inheritance : It is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+
+2. Polymorphism : It is a concept by which we can perform a single action in different ways.
+
+3. Abstraction : It is a concept of hiding the internal details and describing things in simple terms.
+
+4. Encapsulation : It is a concept of binding data and functions that manipulate the data and that keeps it safe from outside interference and misuse.
+
+
+> Coupling, Cohesion, Association, Aggregation, Composition, Generalization, Realization are the concepts that are used in OOPs.
+
+Object: Object is an real-world entity that has state and behavior. It may be any real-world object like the mouse, keyboard, chair, table, pen, etc.
+
+sometimes They can be logical or conceptual. and sometimes they are physical. 
+
+Objects are an Instance of any Class.
+
+When a class is defined no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
+
+Class: A class is a group of objects which have common properties. It is a template or blueprint from which objects are created. It is a logical entity.
+
+
+Q. School is class, Why?
+>  School is just a logical entity It is just a blueprint or template from which objects are created.
+
+> Students are objects, Staff, Teachers are objects.
+
+> Coupling means dependency between the classes. It shows how much a class is dependent on other classes.
+
+> Cohesion means how much a class is related to itself.
+
+
+fun1() {    //coupling is high in this, because it is dependent on func2
+    fun2(); //this is the only code in func1 
+}
+
+func2() {   //coupling is low in this, because it is not dependent on any other func
+    statement;//this is the only code in func2
+}
+
+// we have to make such code that coupling is low and cohesion is high.
+
+The Tv Show called Taarak Mehta Ka Ooltah Chashmah is class, and all the characters are objects.
+
+//Taarak Mehta
+//Jethalal
+//Daya
+//Iyer
+
+ISRO -> Chandrayaan 2 -> Vikram Lander -> Pragyan Rover
+
+
+BMW -> M5 CS
+DELL -> XPS 13
+
+class CalculateThings {
+    int add(int a, int b) {
+        return a+b;
+    }
+}
+
+
+main() {
+    CalculateThings calculate = new CalculateThings();
+}
+
+class TaarakMehtaKaOoltahChashmah {
+    //data members / class variables / instance variables
+    //methods / member functions
+}
+
+main() {
+    TaarakMehtaKaOoltahChashmah taarak = new TaarakMehtaKaOoltahChashmah();
+    TaarakMehtaKaOoltahChashmah jethalal = new TaarakMehtaKaOoltahChashmah();
+    TaarakMehtaKaOoltahChashmah daya = new TaarakMehtaKaOoltahChashmah();
+    TaarakMehtaKaOoltahChashmah iyer = new TaarakMehtaKaOoltahChashmah();
+}
