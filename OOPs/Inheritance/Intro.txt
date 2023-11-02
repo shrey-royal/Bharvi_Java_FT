@@ -1,0 +1,15 @@
+Q. What is Inheritance?
+-> It is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important part of OOPs(Object Oriented programming system).
+
+> it provides code reuseability
+> It have IS-A relationship (also known as parent-child relationship)
+
+5 Types of Inheritance:
+
+1. Single Inheritance : One parent -> One child
+2. Multiple Inheritance (Not supported in Java using classes, but supported using interfaces) : Multiple parent -> One child
+3. Multilevel Inheritance : One parent -> One child -> One grand child -> ....
+4. Hierarchical Inheritance : One parent -> Multiple child
+5. Hybrid Inheritance (Not supported in Java using classes, but supported using interfaces) : Combination of two or more types of inheritance
+
+Aggregation : It is a special form of association. It represents Has-A relationship. (Composition is a strong form of aggregation)
