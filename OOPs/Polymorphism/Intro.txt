@@ -1,0 +1,18 @@
+Polymorphism: The ability to use the same code in different ways.
+Poly -> many and morph -> form. => Many forms.
+
+> Overloading: The ability to use the same function name with different parameters.
+> Overriding: The ability to use the same function name with the same parameters in different classes.
+
+
+Topics we will cover in Polymorphism:
+
+1. Method Overloading (Compile Time Polymorphism)
+2. Method Overriding (Runtime Polymorphism)
+3. Covariant Return Type
+4. super keyword
+5. Instance Initializer Block
+6. final keyword
+7. Runtime Polymorphism (Dynamic Method Dispatch)
+8. Dynamic Binding
+9. instanceof Operator

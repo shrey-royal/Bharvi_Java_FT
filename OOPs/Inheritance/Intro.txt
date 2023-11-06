@@ -13,3 +13,5 @@ Q. What is Inheritance?
 5. Hybrid Inheritance (Not supported in Java using classes, but supported using interfaces) : Combination of two or more types of inheritance
 
 Aggregation : It is a special form of association. It represents Has-A relationship. (Composition is a strong form of aggregation)
+
+> When we pass the object of a class into a constructor of another class, it is known as aggregation.
